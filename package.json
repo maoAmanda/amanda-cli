@@ -1,0 +1,24 @@
+{
+  "name": "amanda-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "amanda-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "download-git-repo": "^3.0.2",
+    "file-system": "^2.2.2",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.1.2",
+    "rimraf": "^3.0.2"
+  }
+}
